@@ -372,6 +372,7 @@ cd $PACKAGES/ffmpeg-4.1 || exit
 	--enable-libopencore_amrwb \
 	--enable-libopencore_amrnb \
 	--enable-filters \
+	--enable-demuxer=asf \
 	--enable-libvidstab \
 	--enable-libaom
 
